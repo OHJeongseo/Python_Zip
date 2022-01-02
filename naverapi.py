@@ -2,8 +2,7 @@ import urllib.request
 import datetime
 import json
 
-clientId= "uw6Kv3aXgTnBfBJaww1A"
-clientSecret= "pbgMp5XLra" 
+
 
 def getRequestUrl(url):
     req= urllib.request.Request(url)
